@@ -75,7 +75,7 @@ Use the `settarget` alias added to your `~/.zshrc` (refresh with `source ~/.zshr
 
 - Set a target:
   ```
-  settarget 192.168.1.100 Kali
+  settarget 192.168.1.1 Kali
   ```
 
 - Clear target:
