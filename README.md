@@ -93,7 +93,7 @@ Below are visuals of the GNOME top bar with the installed extensions. These show
 
 ### Top Bar without Target Configured
 
-When no target is set with `settarget`, the Target indicator is empty or minimized.
+When no target is set with `settarget`, the Target indicator is empty.
 
 ![Top Bar without Target](https://i.imgur.com/3M5BFqo.png)
 
@@ -101,16 +101,14 @@ When no target is set with `settarget`, the Target indicator is empty or minimiz
 
 ### Top Bar with Target Configured
 
-After running `settarget 192.168.1.100 WebServer`, the Target indicator displays the IP and machine name at the end of the bar.
+After running `settarget 192.168.1.100 Kali`, the Target indicator displays the IP and machine name at the end of the bar.
 
 ![Top Bar with Target](https://i.imgur.com/DzoNdQn.png)
 
-*(Description: The top bar shows Ethernet status, VPN IP, Top Bar Organizer elements, and "Target: 192.168.1.100 (WebServer)" at the end.)*
+*(Description: The top bar shows Ethernet status, VPN IP, Top Bar Organizer elements, and "Target: 192.168.1.100 (Kali)" at the end.)*
 
 ## Contributing
 
 Contributions are welcome! Fork the repository, make changes, and submit a pull request. Ensure the code follows Python best practices and is tested on Kali Linux.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+# H4PP1 H4CK1NG
