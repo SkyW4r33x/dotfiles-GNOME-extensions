@@ -3,7 +3,6 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -102,11 +101,11 @@ When no target is set with `settarget`, the Target indicator is empty.
 
 ### Top Bar with Target Configured
 
-After running `settarget 192.168.1.100 Kali`, the Target indicator displays the IP and machine name at the end of the bar.
+After running `settarget 192.168.1.1 Kali`, the Target indicator displays the IP and machine name at the end of the bar.
 
 ![Top Bar with Target](https://i.imgur.com/DzoNdQn.png)
 
-*(Description: The top bar shows Ethernet status, VPN IP, Top Bar Organizer elements, and "Target: 192.168.1.100 (Kali)" at the end.)*
+*(Description: The top bar shows Ethernet status, VPN IP, Top Bar Organizer elements, and "Target: 192.168.1.1 (Kali)" at the end.)*
 
 ## Contributing
 
