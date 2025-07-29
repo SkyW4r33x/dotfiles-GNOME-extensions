@@ -24,6 +24,8 @@ This project provides an installer for custom GNOME Shell extensions designed fo
 - **Top Panel VPN IP**: Shows VPN connection status.
 - **Top Panel Target**: Displays target machine information (configured via the `settarget` alias).
 - **Top Bar Organizer**: Organizes panel elements (installed from the official GNOME Extensions website for the latest version).
+- 
+![extensions](https://i.imgur.com/iVpVTLF.png)
 
 The script also sets up aliases, including `settarget`, to manage IPs and target machine names in the terminal.
 
