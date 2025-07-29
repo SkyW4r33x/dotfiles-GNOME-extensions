@@ -11,7 +11,6 @@
 - [Visuals](#visuals)
   - [Top Bar without Target Configured](#top-bar-without-target-configured)
   - [Top Bar with Target Configured](#top-bar-with-target-configured)
-- [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 
 ## Introduction
