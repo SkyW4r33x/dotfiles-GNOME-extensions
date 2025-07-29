@@ -1,0 +1,8 @@
+{
+  "description": "Displays the IP address of the local machine (eth0) in the top bar. Click to copy the IP address to the clipboard.",
+  "name": "Local IP Info",
+  "shell-version": ["47", "48"],
+  "url": "https://github.com/SkyW4r33x",
+  "uuid": "top-panel-ethernet@kali.org",
+  "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "description": "Displays the VPN IP address in the top bar when a VPN connection is active. Click to copy the IP address to the clipboard.",
+  "name": "VPN IP",
+  "shell-version": [
+    "47",
+    "48"
+  ],
+  "url": "https://gitlab.com/kalilinux/packages/gnome-shell-extension-vpnip",
+  "uuid": "top-panel-vpnip@kali.org",
+  "version": 1
+}

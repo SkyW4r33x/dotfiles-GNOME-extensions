@@ -1,0 +1,11 @@
+{
+  "description": "Displays the target IP address and machine name from ~/.config/bin/target/target.txt in the top bar. Click to copy the IP address to the clipboard.",
+  "name": "Target Info",
+  "shell-version": [
+    "47",
+    "48"
+  ],
+  "url": "https://github.com/SkyW4r33x",
+  "uuid": "top-panel-target@kali.org",
+  "version": 1
+}
