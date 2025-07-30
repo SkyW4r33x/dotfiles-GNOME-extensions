@@ -32,7 +32,7 @@ This tool is designed for users seeking an optimized and customizable GNOME expe
 
 - Debian or Kali Linux-based operating system.
 - GNOME Shell version 42–48.
-- Python 3.x.
+- Python
 - Required packages: `git`, `make`, `gettext`, `gnome-shell`, `dconf-cli`, `wget`.
 - Run as a normal user (not root/sudo).
 - Graphical environment (X11 or Wayland with DISPLAY configured).
