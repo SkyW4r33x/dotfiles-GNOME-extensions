@@ -4,7 +4,7 @@ import Gio from 'gi://Gio';
 Gio._promisify(Gio.Subprocess.prototype, 'communicate_utf8_async');
 
 export const getLocalIp = async () => {
-    // Usamos un comando más simple y confiable
+    
     const ipCommand = ['sh', '-c', 'ip route get 1.1.1.1 | grep -oP "src \\K\\S+" 2>/dev/null || hostname -I | cut -d" " -f1'];
     
     const ipProc = new Gio.Subprocess({
@@ -41,7 +41,7 @@ export const getLocalIpSimple = async () => {
         let [output, stderr] = await hostnameProc.communicate_utf8_async(null, null);
         
         if (output && output.trim()) {
-            // hostname -I puede devolver múltiples IPs, tomamos la primera
+           
             return output.trim().split(' ')[0];
         }
         
@@ -52,7 +52,7 @@ export const getLocalIpSimple = async () => {
     }
 };
 
-// Función para obtener información de interfaces de red (opcional para debugging)
+
 export const getNetworkInterfaces = async () => {
     const interfacesCommand = ['sh', '-c', 'ip link show | grep -E "^[0-9]+:" | cut -d: -f2 | tr -d " "'];
     
